@@ -12,5 +12,8 @@
       "js": ["jquery.min.js", "inject.js"],
       "run_at": "document_end"
     }
+ ],
+ "permissions": [
+    "*://*/*"
  ]
 }
