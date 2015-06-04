@@ -1,0 +1,16 @@
+{
+ "manifest_version": 2,
+ "name": "Amazon Echo",
+ "description": "Inject Amazon Code",
+ "version": "1.0",
+ "content_scripts": [
+    {
+      "matches": [
+        "http://echo.amazon.com/*",
+        "https://echo.amazon.com/*"
+      ],
+      "js": ["jquery.min.js", "inject.js"],
+      "run_at": "document_end"
+    }
+ ]
+}
